@@ -1,0 +1,113 @@
+.dogCalendar {
+  background-color: #F9FCFD;
+}
+
+#dogPic, #gorillaPic {
+  text-align: center;
+}
+
+
+#dog1 , #dog2, #dog3 {
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#gorilla1, #gorilla2 {
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#contactUsInfo {
+    text-align: center;
+}
+
+
+.faqCallUs {
+    text-align: center;
+}
+
+
+#sBar {
+  background-color: #23219D;
+}
+
+
+#indexContactInfo {
+  text-align: center;
+}
+
+
+.mainParagraphFooter h3 {
+  text-align: center;
+  color: #892611;
+}
+
+#mainParagraphTitle h2 {
+  text-align: center;
+  color: #892611;
+}
+
+.mainParagraph {
+  text-align: center;
+}
+
+.item img {
+  width: auto;
+  height: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  background-color: #CFCEC3;
+}
+
+
+#titleBar {
+  background-color: #23219D;
+  color: #F7D70A;
+}
+
+
+.slideShow {
+  background: #CFCEC3;
+}
+
+
+#headerLine1 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 9vw;
+}
+
+
+#headerLine2 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 4.5vw;
+}
+
+
+.mainHeader {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#footerId {
+  background-color: #23219D;
+  color: #F7D70A;
+}

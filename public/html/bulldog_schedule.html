@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Rolly's Ark</title>
+
+    <!-- Bootstrap style sheets-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.css' />
+
+    <link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+    <link href='/public/css/styles.css' rel='stylesheet' type='text/css'>
+
+    <link rel='stylesheet' href='https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.css' />
+
+
+    <style type='text/css'>
+    	body {
+        /*background-color: #CFCEC3; */
+    		/*margin-top: 0px; */
+    		text-align: center;
+    		font-size: 14px;
+    		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    	}
+
+    	#calendar {
+    		width: auto;
+    		margin: 40px;
+    	}
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#mainNavBar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ROLLY'S ARK</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mainNavBar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="\index.html">Home</a></li>
+            <li><a href="\public\html\animals.html">Animal Pictures And Reserved Schedule</a></li>
+            <li><a href="\public\html\faqs.html">Faqs</a></li>
+            <li><a href="\public\html\contactus.html">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="mainHeader">
+      <div class="row">
+        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+          <img src="\public\images\bulldog-mirror.png"
+               alt="buldog-mirror.png" class= "img-responsive" >
+        </div>
+        <div id = "titleBar" class="col-xs-6 col-sm-8 col-md-8 col-lg-8" align="center" >
+          <h1 id="headerLine1">Rolly's Ark</h1>
+          <h3 id="headerLine2">Party Animal Rentals</h3>
+        </div>
+        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+          <img src="\public\images\bulldog.png"
+               alt="buldog.png" class="img-responsive" >
+        </div>
+      </div>
+    </div> <!-- end of mainHeader class -->
+
+    <h2><strong>Bulldog Reserved Schedule</strong></h2>
+
+    <div class="dogCalendar">
+      <div class="row">
+        <div class="col-md-12">
+          <div id='calendar'></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
+    <script src='https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.min.js'></script>
+
+
+    <script>
+    $(document).ready(function() {
+
+      $('#calendar').fullCalendar({
+        // put your options and callbacks here
+      })
+
+    });
+    </script>
+
+
+  </body>
+</html>
