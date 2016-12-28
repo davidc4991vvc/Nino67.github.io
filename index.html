@@ -12,9 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
     <link href='/public/css/styles.css' rel='stylesheet' type='text/css'>
-    <link href='/public/css/img_slider.css' rel='stylesheet' type='text/css'>
+
   </head>
 
   <body>
@@ -44,15 +45,15 @@
 
     <div class="mainHeader">
       <div class="row">
-        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+        <div id= "pic1" class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
           <img src="\public\images\bulldog-mirror.png"
                alt="buldog-mirror.png" class= "img-responsive" >
         </div>
-        <div id = "titleBar" class="col-xs-6 col-sm-8 col-md-8 col-lg-8" align="center" >
+        <div id = "titleBar" class="col-xs-6 col-sm-8 col-md-8 col-lg-8 " align="center" >
           <h1 id="headerLine1">Rolly's Ark</h1>
           <h3 id="headerLine2">Party Animal Rentals</h3>
         </div>
-        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+        <div id ="pic2" class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
           <img src="\public\images\bulldog.png"
                alt="buldog.png" class="img-responsive" >
         </div>
@@ -107,8 +108,8 @@
 
           <div class="col-sm-8 col-md-8 col-lg-8">
             <div id="mainParagraphTitle">
-              <h2><strong>Let us help make your occasion truely special!</strong></h2>
-              <div class="mainParagraph">
+              <h2 id='line1'><strong>Let us help make your occasion truely special!</strong></h2>
+              <div class="mainParagraph" id = "mainParagraph">
                 <br>
                 <h4>We offer large animal fiberglass lawn props for  birthdays, anniversaries, weddings,
                     births, grand openings, sales, events and promotions and much, much more.What a great
@@ -118,7 +119,7 @@
               </div>
             </div>
             <br>
-            <div class="mainParagraphFooter">
+            <div class="mainParagraphFooter" id = "mainParagraphFooter">
               <h3><strong>Don't Say it with a Card</strong></h3>
               <h3><strong>Say it in the Yard!</strong></h3>
             </div>
@@ -156,16 +157,46 @@
     </div>
 
 
-
-
-
-
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script> $('#myCarousel').carousel({ interval: 3000 }) </script>﻿
+
+        <script>
+          $( document ).ready(function() {
+
+            // add the "animateCss" to JQuery to extend it
+            $.fn.extend({
+                animateCss: function (animationName) {
+                    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+                    this.addClass('animated ' + animationName).one(animationEnd, function() {
+                        $(this).removeClass('animated ' + animationName);
+                    });
+                }
+            });
+
+            //start the show
+            $('#myCarousel').carousel({ interval: 3000 });﻿
+            $('#titleBar').animateCss('flip');﻿
+            $('#pic1').animateCss('bounceInLeft');﻿
+            $('#pic2').animateCss('bounceInLeft');﻿
+            $('#line1').animateCss('lightSpeedIn');﻿
+            $('#mainParagraphFooter').animateCss('lightSpeedIn');﻿
+            $('#mainParagraph').animateCss('bounceInLeft');﻿
+            $('#myCarousel').animateCss('bounceInLeft');﻿
+
+
+
+            $("#titleBar").on("click", function() {
+              console.log("pressed");
+              $("#titleBar").animateCss("rotateIn");
+            });
+
+              console.log( "ready!" );
+          });
+        </script>
+
 
   </body>
 </html>

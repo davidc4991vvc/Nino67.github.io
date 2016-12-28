@@ -1,62 +1,64 @@
 <!doctype html>
 <html>
 
-  <head>
-    <title>Rolly's Ark</title>
+<head>
+  <title>Rolly's Ark</title>
 
-    <!-- Bootstrap style sheets-->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Bootstrap style sheets-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
-    <link href='/public/css/styles.css' rel='stylesheet' type='text/css'>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+  <link href='/public/css/styles.css' rel='stylesheet' type='text/css'>
 
-  <body>
+</head>
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target="#mainNavBar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">ROLLY'S ARK</a>
-        </div>
-        <div class="collapse navbar-collapse" id="mainNavBar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="\index.html">Home</a></li>
-            <li><a href="\public\html\animals.html">Animal Pictures And Reserved Schedule</a></li>
-            <li><a href="\public\html\faqs.html">Faqs</a></li>
-            <li><a href="\public\html\contactus.html">Contact Us</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+<body>
 
-    <div class="mainHeader">
-      <div class="row">
-        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
-          <img src="\public\images\bulldog-mirror.png"
-               alt="buldog-mirror.png" class= "img-responsive" >
-        </div>
-        <div id = "titleBar" class="col-xs-6 col-sm-8 col-md-8 col-lg-8" align="center" >
-          <h1 id="headerLine1">Rolly's Ark</h1>
-          <h3 id="headerLine2">Party Animal Rentals</h3>
-        </div>
-        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
-          <img src="\public\images\bulldog.png"
-               alt="buldog.png" class="img-responsive" >
-        </div>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target="#mainNavBar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">ROLLY'S ARK</a>
       </div>
-    </div> <!-- end of mainHeader class -->
+      <div class="collapse navbar-collapse" id="mainNavBar">
+        <ul class="nav navbar-nav">
+          <li><a href="\index.html">Home</a></li>
+          <li><a href="\public\html\animals.html">Animal Pictures And Reserved Schedule</a></li>
+          <li class="active"><a href="\public\html\faqs.html">Faqs</a></li>
+          <li><a href="\public\html\contactus.html">Contact Us</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="mainHeader">
+    <div class="row">
+      <div id= "pic1" class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+        <img src="\public\images\bulldog-mirror.png"
+             alt="buldog-mirror.png" class= "img-responsive" >
+      </div>
+      <div id = "titleBar" class="col-xs-6 col-sm-8 col-md-8 col-lg-8 " align="center" >
+        <h1 id="headerLine1">Rolly's Ark</h1>
+        <h3 id="headerLine2">Party Animal Rentals</h3>
+      </div>
+      <div id ="pic2" class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+        <img src="\public\images\bulldog.png"
+             alt="buldog.png" class="img-responsive" >
+      </div>
+    </div>
+  </div> <!-- end of mainHeader class -->
 
     <br>
 
@@ -114,7 +116,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script> $('#myCarousel').carousel({ interval: 2000 }) </script>﻿
+    <script>
+      $( document ).ready(function() {
+
+        // add the "animateCss" to JQuery to extend it
+        $.fn.extend({
+            animateCss: function (animationName) {
+                var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+                this.addClass('animated ' + animationName).one(animationEnd, function() {
+                    $(this).removeClass('animated ' + animationName);
+                });
+            }
+        });
+
+        //start the show
+        $('#titleBar').animateCss('infinite pulse');﻿
+        $('#pic1').animateCss('bounceInLeft');﻿
+        $('#pic2').animateCss('bounceInLeft');﻿
+        $('#faqsInfo').animateCss('lightSpeedIn');﻿
+
+
+        $("#titleBar").on("click", function() {
+          $("#titleBar").animateCss("rotateIn");
+        });
+
+      });
+    </script>
 
   </body>
 </html>
