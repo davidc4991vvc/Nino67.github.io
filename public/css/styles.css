@@ -2,14 +2,15 @@
   display: block;
   padding: 3px;
   background: #000;
-  border: 4px solid #888;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 20px #000;
 }
 
 
 #dogPic img {
   display: block;
   padding: 5px;
-  background: #42517f;
+  background: #000;
   border: 3px solid #000;
   box-shadow: 10px 10px 20px #000;
 }
