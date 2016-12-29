@@ -108,6 +108,7 @@ body {
 
 
 #footerId {
+  text-align: left; 
   background-color: #23219D;
   color: #F7D70A;
 }

@@ -165,6 +165,8 @@
 
         <script>
           $( document ).ready(function() {
+            var cnt = 0;
+            var animation = [ "hinge", "flip", "rollIn","rollOut", "lightSpeedOut", "shake", "rubberBand", "wobble" ,"fadeInUpBig" ];
 
             // add the "animateCss" to JQuery to extend it
             $.fn.extend({
@@ -181,14 +183,22 @@
             $('#titleBar').animateCss('flip');﻿
             $('#pic1').animateCss('bounceInLeft');﻿
             $('#pic2').animateCss('bounceInLeft');﻿
-            $('#line1').animateCss('lightSpeedIn');﻿
             $('#mainParagraphFooter').animateCss('lightSpeedIn');﻿
             $('#mainParagraph').animateCss('bounceInLeft');﻿
             $('#myCarousel').animateCss('bounceInLeft');﻿
+            $('#line1').animateCss('infinite pulse');﻿
+
 
             $("#titleBar").on("click", function() {
-              console.log("pressed");
-              $("#titleBar").animateCss("flip");
+              if (cnt < animation.length) {
+                $("#titleBar").animateCss(animation[cnt]);
+                console.log(animation[cnt]);
+                console.log(cnt);
+                ++cnt;
+                if(cnt >= animation.length){
+                  cnt = 0;
+                }
+              }
             });
 
           }); //------ end of JQuery documaent Ready function -------
