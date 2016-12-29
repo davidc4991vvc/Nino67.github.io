@@ -15,6 +15,14 @@
   box-shadow: 10px 10px 20px #000;
 }
 
+#faqsInfo img {
+  display: block;
+  padding: 0px;
+  background: #000;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 25px #000;
+}
+
 
 #dogPic img:hover {
   border: 2px solid #fff;
@@ -73,8 +81,22 @@
 }
 
 
+#contactUsInfo img {
+  display: block;
+  padding: 0px;
+  background: #000;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 25px #000;
+}
+
+
 .faqCallUs {
     text-align: center;
+}
+
+#faqsTitle, #hiliteOrder {
+  color: #E13030;
+  text-shadow: 3px 3px 5px #000;
 }
 
 
@@ -87,6 +109,10 @@
   text-align: center;
 }
 
+#contactUs {
+  color: #E13030;
+  text-shadow: 3px 3px 5px #000;
+}
 
 .mainParagraphFooter h3 {
   text-align: center;
@@ -125,8 +151,8 @@ body {
 }
 
 #bulldog, #bulldog-mirror{
-  height: 200px;
-  max-height: 200px;
+  height: 15vw;
+  max-height: 15vw;
   border: 2px solid #000;
   display: block;
   box-shadow: 15px 15px 30px #000;
