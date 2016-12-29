@@ -16,6 +16,13 @@
   <link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
   <link href='/public/css/styles.css' rel='stylesheet' type='text/css'>
 
+  <style type="text/css">
+    #faqsTitle, #hiliteOrder {
+        color: #892611;
+    }
+
+  </style>
+
 </head>
 
 <body>
@@ -30,7 +37,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">ROLLY'S ARK</a>
+          <div class="navbar-brand" id="brand">ROLLY'S ARK</div>
       </div>
       <div class="collapse navbar-collapse" id="mainNavBar">
         <ul class="nav navbar-nav">
@@ -65,8 +72,10 @@
     <div class="container" id="faqsInfo">
       <div class="row">
         <div class="col-lg-6">
-          <h2><strong>FAQS</strong></h2>
-          <br>
+          <div id="faqsTitle">
+            <h1><strong>FAQS</strong></h1>
+          </div>
+
           <h3><strong>When do you deliver?</strong></h3>
           <h4>Our main delivery hours are between midnight and 6 am but if needed other arrangements can be made.</h4>
           <br>
@@ -91,9 +100,11 @@
             <h4><strong>Still have questions? Please contact us!</strong></h4>
             <h4><strong>We look forward to hearing from you.</strong></h4>
             <br>
-            <h3><strong>Don't delay order your's today!</strong></h3>
+            <div id= "hiliteOrder">
+              <h3><strong>Don't delay order your's today!</strong></h3>
+            </div>
             <h3><strong>(905) 999-9999</strong></h3>
-            <h3><strong>rollysark@mail</strong></h3>
+            <a href="https://www.google.ca"><h3><strong>rollysark@email.com</strong></h3></a>
           </div>
         </div>
       </div> <!-- end of row -->
@@ -130,14 +141,13 @@
         });
 
         //start the show
-        $('#titleBar').animateCss('infinite pulse');﻿
+        $('#titleBar').animateCss('rollIn');﻿
         $('#pic1').animateCss('bounceInLeft');﻿
         $('#pic2').animateCss('bounceInLeft');﻿
         $('#faqsInfo').animateCss('lightSpeedIn');﻿
 
-
         $("#titleBar").on("click", function() {
-          $("#titleBar").animateCss("rotateIn");
+          $("#titleBar").animateCss("pulse");
         });
 
       });

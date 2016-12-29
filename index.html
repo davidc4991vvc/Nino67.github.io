@@ -30,7 +30,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">ROLLY'S ARK</a>
+          <div class="navbar-brand" id="brand">ROLLY'S ARK</div>
         </div>
         <div class="collapse navbar-collapse" id="mainNavBar">
           <ul class="nav navbar-nav">
@@ -138,13 +138,13 @@
           <br>
           <h3>Call or email us today to book your unforgettable gift!</h3>
           <h4><strong>(999)999-9999</strong></h4>
-          <h4><strong>rollysark@mail</strong></h4>
+          <a href="#"><h4><strong>rollysark@email.com</strong></h4></a>
 
         </div>
         <div class="col-lg-6">
           <br>
           <h3>We deliver within the Niagara and Hamilton areas.</h3>
-          <h3>See our FAQs page to answer your questions</h3>
+          <h3>See our <span> <a href="\public\html\faqs.html">FAQS</a></span> page to answer your questions</h3>
         </div>
       </div> <!-- end of row -->
     </div> <!-- end of container -->
@@ -186,15 +186,12 @@
             $('#mainParagraph').animateCss('bounceInLeft');﻿
             $('#myCarousel').animateCss('bounceInLeft');﻿
 
-
-
             $("#titleBar").on("click", function() {
               console.log("pressed");
-              $("#titleBar").animateCss("rotateIn");
+              $("#titleBar").animateCss("flip");
             });
 
-              console.log( "ready!" );
-          });
+          }); //------ end of JQuery documaent Ready function -------
         </script>
 
 
