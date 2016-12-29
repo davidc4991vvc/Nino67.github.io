@@ -1,3 +1,101 @@
+
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #CFCEC3;
+}
+
+
+
+#footerBar {
+  background-color: #23219D;
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#footerBox1 {
+    border: 3px solid #000;
+    margin-top: 10px;
+}
+
+#footerBox2 {
+    border: 3px solid #000;
+    margin-top: 10px;
+}
+
+/*--------------- start of index.html specific styles -------------------*/
+
+.mainParagraphFooter {
+  margin-top: 3vw;
+}
+
+
+.mainParagraphFooter h2 {
+  text-align: center;
+  color: #E13030;
+  text-shadow: 2px 2px 5px #000;
+  margin: 10px;
+}
+
+
+#mainParagraphTitle h1 {
+  text-align: center;
+  color: #E13030;
+  text-shadow: 3px 3px 5px #000;
+  margin-top: 5vw;
+}
+
+
+.mainParagraph {
+  text-align: center;
+  margin-top: 35px;
+  word-spacing: 1px;
+}
+
+
+.item img {
+  width: auto;
+  height: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.slideShow {
+  background: #CFCEC3;
+}
+
+
+.slideWindow {
+  box-shadow: 10px 10px 25px #000;
+  border: 3px solid #000;
+  margin-top: 5vw;
+}
+
+#indexContactInfo {
+  text-align: center;
+}
+
+#indexContactInfo h4 {
+  padding: 10px;
+}
+
+#indexContactInfo h3 {
+  padding: 10px;
+}
+
+/*---------------- end of index.html specific styles --------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*--------------- start of animals.html specific styles -------------------*/
+
 #gorillaPic img {
   display: block;
   padding: 3px;
@@ -15,6 +113,30 @@
   box-shadow: 10px 10px 20px #000;
 }
 
+
+#dogPic img:hover {
+  border: 2px solid #fff;
+}
+
+
+#dogPic ul {
+  list-style: none;
+}
+
+#dogPic li {
+  float: left;
+  margin: 10px;
+}
+
+#gorillaPic img:hover {
+  border: 2px solid #fff;
+}
+
+
+
+/*---------------- end of animals.html specific styles --------------------*/
+
+
 #faqsInfo img {
   display: block;
   padding: 0px;
@@ -24,14 +146,8 @@
 }
 
 
-#dogPic img:hover {
-  border: 2px solid #fff;
-}
 
 
-#gorillaPic img:hover {
-  border: 2px solid #fff;
-}
 
 
 .dogCalendar {
@@ -100,11 +216,6 @@
 }
 
 
-#sBar {
-  background-color: #23219D;
-}
-
-
 #indexContactInfo {
   text-align: center;
 }
@@ -112,35 +223,6 @@
 #contactUs {
   color: #E13030;
   text-shadow: 3px 3px 5px #000;
-}
-
-.mainParagraphFooter h3 {
-  text-align: center;
-  color: #892611;
-}
-
-#mainParagraphTitle h1 {
-  text-align: center;
-  color: #E13030;
-  text-shadow: 3px 3px 5px #000;
-}
-
-.mainParagraph {
-  text-align: center;
-}
-
-.item img {
-  width: auto;
-  height: 200px;
-  max-height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-body {
-  background-color: #CFCEC3;
 }
 
 
@@ -159,14 +241,6 @@ body {
 
 }
 
-.slideShow {
-  background: #CFCEC3;
-}
-
-.slideWindow {
-  box-shadow: 10px 10px 25px #000;
-  border: 3px solid #000;
-}
 
 
 #headerLine1 {
@@ -191,6 +265,7 @@ body {
   text-align: left;
   background-color: #23219D;
   color: #F7D70A;
+  margin-top: 25px;
 }
 
 #brand {
