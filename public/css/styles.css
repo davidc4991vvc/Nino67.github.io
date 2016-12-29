@@ -1,11 +1,49 @@
+#gorillaPic img {
+  display: block;
+  padding: 3px;
+  background: #000;
+  border: 4px solid #888;
+}
+
+
+#dogPic img {
+  display: block;
+  padding: 5px;
+  background: #42517f;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 20px #000;
+}
+
+
+#dogPic img:hover {
+  border: 2px solid #fff;
+}
+
+
+#gorillaPic img:hover {
+  border: 2px solid #fff;
+}
+
+
 .dogCalendar {
   background-color: #F9FCFD;
 }
 
 #dogPic, #gorillaPic {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
+
+#rolly, #rolly_donna {
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #dog1 , #dog2, #dog3 {
   width: auto;
@@ -54,9 +92,10 @@
   color: #892611;
 }
 
-#mainParagraphTitle h2 {
+#mainParagraphTitle h1 {
   text-align: center;
-  color: #892611;
+  color: #E13030;
+  text-shadow: 3px 3px 5px #000;
 }
 
 .mainParagraph {
@@ -81,11 +120,25 @@ body {
 #titleBar {
   background-color: #23219D;
   color: #F7D70A;
+  box-shadow: 15px 15px 30px #000;
 }
 
+#bulldog, #bulldog-mirror{
+  height: 200px;
+  max-height: 200px;
+  border: 2px solid #000;
+  display: block;
+  box-shadow: 15px 15px 30px #000;
+
+}
 
 .slideShow {
   background: #CFCEC3;
+}
+
+.slideWindow {
+  box-shadow: 10px 10px 25px #000;
+  border: 3px solid #000;
 }
 
 
@@ -108,7 +161,7 @@ body {
 
 
 #footerId {
-  text-align: left; 
+  text-align: left;
   background-color: #23219D;
   color: #F7D70A;
 }
