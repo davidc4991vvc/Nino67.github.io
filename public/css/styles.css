@@ -115,7 +115,7 @@ body {
 
 
 #picsTopRow {
-  margin: 50px;
+  margin: 5vw;
 
 }
 
@@ -124,8 +124,16 @@ body {
   border: 2px solid #fff;
 }
 
-#scheduleAnchors {
-  margin-top: 10vw;
+#scheduleAnchors1 {
+  margin-top: 5vw;
+}
+
+#scheduleAnchors1 h3 {
+  margin-top: 15px;
+}
+
+#animalsText h3 {
+  padding: 15px;
 }
 
 /*---------------- end of animals.html specific styles --------------------*/
