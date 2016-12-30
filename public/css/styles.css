@@ -1,32 +1,17 @@
-
-
 html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, img {
   margin: 0;
   padding: 0;
 }
 
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+
 body {
   background-color: #CFCEC3;
 }
 
-
-
-#footerBar {
-  background-color: #23219D;
-  height: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-#footerBox1 {
-    border: 3px solid #000;
-    margin-top: 10px;
-}
-
-#footerBox2 {
-    border: 3px solid #000;
-    margin-top: 10px;
-}
 
 /*--------------- start of index.html specific styles -------------------*/
 
@@ -93,7 +78,6 @@ body {
 
 /*---------------- end of index.html specific styles --------------------*/
 /*-----------------------------------------------------------------------*/
-/*-----------------------------------------------------------------------*/
 /*--------------- start of animals.html specific styles -------------------*/
 
 #gorillaPic img {
@@ -121,21 +105,38 @@ body {
 
 #dogPic ul {
   list-style: none;
+  margin-top: 5px;
 }
 
 #dogPic li {
   float: left;
-  margin: 10px;
+  margin: 30px;
 }
+
+
+#picsTopRow {
+  margin: 50px;
+
+}
+
 
 #gorillaPic img:hover {
   border: 2px solid #fff;
 }
 
-
+#scheduleAnchors {
+  margin-top: 10vw;
+}
 
 /*---------------- end of animals.html specific styles --------------------*/
+/*-----------------------------------------------------------------------*/
+/*--------------- start of faqs.html specific styles -------------------*/
 
+#faqsInfo h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
 
 #faqsInfo img {
   display: block;
@@ -145,13 +146,103 @@ body {
   box-shadow: 10px 10px 25px #000;
 }
 
+.faqCallUs {
+  text-align: center;
+}
+
+#faqsTitle, #hiliteOrder {
+  color: #E13030;
+  margin-top: 25px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+
+#faqsPagePic {
+  margin-top: 50px;
+  margin-left: 4vw;
+  margin-right: auto;
+}
+
+.faqCallUs {
+  margin-top: 35px;
+}
+
+
+/*---------------- end of faqs.html specific styles --------------------*/
+/*-----------------------------------------------------------------------*/
+/*--------------- start of contacts.html specific styles -------------------*/
+
+#contactUsInfo {
+    text-align: center;
+}
+
+
+#contactUsInfo img {
+  display: block;
+  padding: 0px;
+  background: #000;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 25px #000;
+  margin-top: 20px;
+}
 
 
 
+#indexContactInfo {
+  text-align: center;
+}
 
+#contactUs {
+  color: #E13030;
+  text-shadow: 3px 3px 5px #000;
+  margin-top: 25px;
+}
+
+
+#contactText1 {
+  margin-top: 25px;
+}
+
+
+#contactText2 {
+  margin-top: 25px;
+}
+
+
+#contactText3 {
+  margin-top: 25px;
+}
+
+
+#contactText4 {
+  margin-top: 10px;
+}
+
+
+
+/*--------------- end of contacts.html specific styles -------------------*/
+/*-----------------------------------------------------------------------*/
+/*--------------- start of bulldog_schedule.html specific styles -------------------*/
+
+#bulldogScheduleTitle {
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 0px;
+  color: #892611;
+}
+
+#gorillaScheduleTitle {
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 0px;
+  color: #892611;
+}
+
+/*--------------- end of bulldog_schedule.html specific styles -------------------*/
+/*-----------------------------------------------------------------------*/
 
 .dogCalendar {
-  background-color: #F9FCFD;
+
 }
 
 #dogPic, #gorillaPic {
@@ -192,43 +283,14 @@ body {
 
 
 
-#contactUsInfo {
-    text-align: center;
-}
-
-
-#contactUsInfo img {
-  display: block;
-  padding: 0px;
-  background: #000;
-  border: 3px solid #000;
-  box-shadow: 10px 10px 25px #000;
-}
-
-
-.faqCallUs {
-    text-align: center;
-}
-
-#faqsTitle, #hiliteOrder {
-  color: #E13030;
-  text-shadow: 3px 3px 5px #000;
-}
-
-
-#indexContactInfo {
-  text-align: center;
-}
-
-#contactUs {
-  color: #E13030;
-  text-shadow: 3px 3px 5px #000;
-}
+/*-----------------------------------------------------------------------*/
+/*--------------- start of main header bar specific styles --------------*/
 
 
 #titleBar {
   background-color: #23219D;
   color: #F7D70A;
+  padding: 15px;
   box-shadow: 15px 15px 30px #000;
 }
 
@@ -242,15 +304,15 @@ body {
 }
 
 
-
 #headerLine1 {
   font-family: 'Fontdiner Swanky', cursive;
-  font-size: 9vw;
+  font-size: 8vw;
 }
 
 
 #headerLine2 {
   font-family: 'Fontdiner Swanky', cursive;
+  margin-top: 2vw;
   font-size: 4.5vw;
 }
 
@@ -259,6 +321,29 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+/*--------------- end of main header bar specific styles --------------*/
+/*-----------------------------------------------------------------------*/
+
+#footerBar {
+  background-color: #23219D;
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+#footerBox1 {
+    border: 3px solid #000;
+    margin-top: 10px;
+}
+
+
+#footerBox2 {
+    border: 3px solid #000;
+    margin-top: 10px;
+}
+
 
 
 #footerId {
