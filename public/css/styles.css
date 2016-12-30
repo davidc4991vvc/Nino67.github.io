@@ -136,6 +136,36 @@ body {
   padding: 15px;
 }
 
+#rolly, #rolly_donna, #donna_bike {
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dog1 , #dog2, #dog3 {
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#gorilla1, #gorilla2 {
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /*---------------- end of animals.html specific styles --------------------*/
 /*-----------------------------------------------------------------------*/
 /*--------------- start of faqs.html specific styles -------------------*/
@@ -257,36 +287,6 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-}
-
-
-#rolly, #rolly_donna {
-  width: auto;
-  height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#dog1 , #dog2, #dog3 {
-  width: auto;
-  height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-#gorilla1, #gorilla2 {
-  width: auto;
-  height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
