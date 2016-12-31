@@ -267,21 +267,6 @@ body {
   text-align: center;
 }
 
-/*
-font-family: 'Orbitron', sans-serif; in use
-font-family: 'Didact Gothic', sans-serif; in use
-font-family: 'Rock Salt';
-font-family: 'Lustria', serif;
-font-family: 'Crafty Girls';
-font-family: 'Gruppo';
-font-family: 'Indie Flower';
-font-family: 'Abril Fatface'; in use
-font-family: 'Architects Daughter';
-font-family: 'Caveat';
-font-family: 'Cantata One', serif;
-
-*/
-
 
 #contactUs {
   font-family: 'Abril Fatface';
@@ -418,15 +403,30 @@ font-family: 'Cantata One', serif;
 }
 
 #footerBox1 h4 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Architects Daughter';
   padding: 3px;
 }
 
 
 #footerBox2 h4 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Architects Daughter';
   padding: 9px;
 }
+
+/*
+font-family: 'Orbitron', sans-serif; in use
+font-family: 'Didact Gothic', sans-serif; in use
+font-family: 'Rock Salt';
+font-family: 'Lustria', serif;
+font-family: 'Crafty Girls';
+font-family: 'Gruppo';
+font-family: 'Indie Flower';
+font-family: 'Abril Fatface'; in use
+font-family: 'Architects Daughter';
+font-family: 'Caveat';
+font-family: 'Cantata One', serif;
+
+*/
 
 
 
