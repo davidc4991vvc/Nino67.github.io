@@ -22,6 +22,7 @@ body {
 
 .mainParagraphFooter h2 {
   font-family: 'Abril Fatface';
+  font-size: 30px;
   text-align: center;
   color: #E13030;
   text-shadow: 3px 3px 5px #000;
@@ -32,6 +33,7 @@ body {
 
 #mainParagraphTitle h1 {
   font-family: 'Abril Fatface';
+  font-size: 50px;
   text-align: center;
   color: #E13030;
   text-shadow: 3px 3px 5px #000;
@@ -41,6 +43,7 @@ body {
 
 .mainParagraph  {
   font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
   text-align: center;
   margin-top: 30px;
 }
@@ -68,7 +71,7 @@ body {
 .slideWindow {
   box-shadow: 10px 10px 25px #000;
   border: 3px solid #000;
-  margin-top: 7vw;
+  margin-top: 10vw;
 }
 
 #indexContactInfo {
@@ -149,6 +152,7 @@ body {
 
 #scheduleAnchors1 h2 {
   padding: 10px;
+  font-size: 35px;
   text-shadow: 1px 1px 3px #000;
 }
 
@@ -163,6 +167,10 @@ body {
   padding: 10px;
   border: 3px solid #000;
   box-shadow: 10px 10px 25px #000;
+}
+
+#animalsText h3 {
+  font-size: 24px;
 }
 
 
@@ -218,15 +226,33 @@ body {
   text-align: center;
 }
 
-#faqsTitle, #hiliteOrder {
-  font-family: 'Abril Fatface';
+
+#hiliteOrder {
   color: #E13030;
   margin-top: 25px;
   text-shadow: 3px 3px 5px #000;
 }
 
-#faqsTitle h3, h4 {
+#faqsTitle {
+  color: #E13030;
+  margin-top: 25px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+#faqsTitle h1 {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+}
+
+#faqsTitle h3 {
   font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}
+
+.paraLine1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  margin-left: 25px;
 }
 
 
@@ -238,9 +264,23 @@ body {
 }
 
 .faqCallUs {
-  font-family: 'Didact Gothic', sans-serif;
   margin-top: 35px;
 }
+
+.faqCallUs h2 {
+  font-family: 'Abril Fatface';
+  font-size: 34px;
+}
+
+.faqCallUs h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+}
+
+.faqCallUs h4 {
+  font-size: 20px;
+}
+
 
 
 /*---------------- end of faqs.html specific styles --------------------*/
@@ -269,15 +309,19 @@ body {
 
 
 #contactUs {
-  font-family: 'Abril Fatface';
   color: #E13030;
   text-shadow: 3px 3px 5px #000;
   margin-top: 25px;
 }
 
+#contactUs h1 {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+}
 
 #contactUs h3 {
   font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
 }
 
 #contactText1 {
@@ -308,17 +352,25 @@ body {
 #bulldogScheduleTitle {
   font-family: 'Abril Fatface';
   text-align: center;
-  margin-top: 5vw;
-  margin-bottom: 0px;
+  margin-top: 3vw;
   color: #E13030;
   text-shadow: 3px 3px 5px #000;
 }
 
+
+#bulldogScheduleTitle h1 {
+  font-size: 50px;
+}
+
+#gorillaScheduleTitle h1{
+  font-size: 50px;
+}
+
+
 #gorillaScheduleTitle {
   font-family: 'Abril Fatface';
   text-align: center;
-  margin-top: 5vw;
-  margin-bottom: 0px;
+  margin-top: 3vw;
   color: #E13030;
   text-shadow: 3px 3px 5px #000;
 }
@@ -403,13 +455,15 @@ body {
 }
 
 #footerBox1 h4 {
-  font-family: 'Architects Daughter';
+  font-family: 'Cantata One', serif;
+  font-size: 18px;
   padding: 3px;
 }
 
 
 #footerBox2 h4 {
-  font-family: 'Architects Daughter';
+  font-family: 'Cantata One', serif;
+  font-size: 18px;
   padding: 9px;
 }
 
