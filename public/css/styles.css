@@ -174,13 +174,13 @@ body {
 }
 
 #scheduleAnchors1 h2 {
-  color: #131BF0;
   font-family: 'Abril Fatface';
   padding: 10px;
   font-size: 38px;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #D3D4E5;
-  letter-spacing: 1px;
+  /*text-shadow: 1px 1px 1px #D3D4E5;*/
+  text-shadow: 3px 3px 3px #000;
+  letter-spacing: 2px;
 }
 
 
