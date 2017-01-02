@@ -38,86 +38,77 @@ body {
 /*----------------------------------------------------------------------------*/
 /*----start of index.html specific styles ------------------------------------*/
 
-.mainParagraphFooter {
-  margin-top: 3vw;
-}
 
-
-.mainParagraphFooter h2 {
+.heading1 {
   font-family: 'Abril Fatface';
-  font-size: 38px;
-  font-weight: bold;
-  letter-spacing: 2px;
   text-align: center;
-  color: #E13030;
-  text-shadow: 3px 3px 5px #000;
-  margin-top: 30px;
-}
-
-
-
-#mainParagraphTitle h1 {
-  font-family: 'Abril Fatface';
+  margin-top: 40px;
+  margin-bottom:  10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 55px;
   font-weight: bold;
   letter-spacing: 3px;
   word-spacing: 7px;
-  text-align: center;
+  line-height: 65px;
   color: #E13030;
-  text-shadow: 3px 3px 5px #000;
-  margin-top: 3vw;
-  margin-left: 50px;
+  text-shadow: 5px 5px 5px #000;
 }
 
 
-.mainParagraph  {
-  margin-top: 30px;
-}
-
-.mainParagraph  h3{
-  font-family: 'Days One', sans-serif;
+.slideShow1 {
   text-align: center;
-  font-size: 28px;
-  letter-spacing: 1px;
-  line-height: 35px;
-  word-spacing: 3px;
-  margin-top: 10px;
-  margin-left: 50px;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #D3D4E5;
+  margin-top: 30px;
+  margin-bottom:  10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 5px solid #000;
+  box-shadow: 10px 10px 5px #000;
+  height: 80%;
 }
 
+
+.paragraphText {
+  text-align: center;
+  text-shadow: 5px 5px 10px #fff;
+  margin-top: 10px;
+  margin-bottom:  10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 80%;
+}
+
+.paragraphText p {
+  font-family: 'Days One', sans-serif;
+  font-size: 28px;
+}
+
+
+.heading2 {
+  font-family: 'Abril Fatface';
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+  line-height: 50px;
+  color: #D62727;
+  margin-top: 40px;
+  margin-bottom:  10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 80%;
+  text-shadow: 5px 5px 5px #000;
+}
 
 .item img {
   width: auto;
-  height: 200px;
-  max-height: 200px;
-  display: block;
+  height: 175px;
+  max-height: 175px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-.slideWindow {
-  box-shadow: 10px 10px 25px #000;
-  border: 3px solid #000;
-  margin-top: 4vw;
-}
-
-
-#indexContactInfo {
-  text-align: center;
-}
-
-
-#indexContactInfo h4 {
-  padding: 10px;
-}
-
-
-#indexContactInfo h3 {
-  padding: 10px;
-}
 
 /*---------------- end of index.html specific styles --------------------*/
 /*-----------------------------------------------------------------------*/
@@ -185,116 +176,6 @@ body {
 }
 
 
-
-/*
-#gorillaPic img {
-  display: block;
-  padding: 3px;
-  background: #000;
-  border: 3px solid #000;
-  box-shadow: 10px 10px 20px #000;
-}
-
-
-#dogPic img {
-  display: block;
-  padding: 5px;
-  background: #000;
-  border: 3px solid #000;
-  box-shadow: 10px 10px 20px #000;
-}
-
-
-#dogPic img:hover {
-  border: 2px solid #fff;
-}
-
-
-#dogPic ul {
-  list-style: none;
-  margin-top: 5px;
-}
-
-
-#dogPic li {
-  float: left;
-  margin: 20px;
-}
-
-
-#picsTopRow {
-}
-
-
-#gorillaPic img:hover {
-  border: 2px solid #fff;
-}
-
-
-#scheduleAnchors1 {
-  padding-bottom: 10px;
-  margin-top: 3vw;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-#scheduleAnchors1 h2 {
-  font-family: 'Abril Fatface';
-  padding: 10px;
-  font-size: 38px;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px #000;
-  letter-spacing: 2px;
-}
-
-
-#animalsText {
-  margin-top: 5px;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  padding: 10px;
-}
-
-#animalsText h3 {
-  font-family: 'Days One', sans-serif;
-  font-weight: bold;
-  font-size: 28px;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #D3D4E5;
-}
-
-
-#rolly, #rolly_donna, #donna_bike {
-  width: auto;
-  height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#dog1 , #dog2, #dog3 {
-  width: auto;
-  height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-#gorilla1, #gorilla2 {
-  width: auto;
-  height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
-
 /*---------------- end of animals.html specific styles --------------------*/
 /*-----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
@@ -317,7 +198,7 @@ body {
 
 .paraLine1 {
   font-family: 'Days One', sans-serif;
-  text-shadow: 1px 1px 1px #D3D4E5;
+  text-shadow: 3px 3px 5px #FFF;
   font-size: 22px;
   font-weight: bold;
   margin-left: 25px;
@@ -327,7 +208,7 @@ body {
 .paraHeaders{
   font-family: 'Days One', sans-serif;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #D3D4E5;
+  text-shadow: 3px 3px 5px #FFF;
   font-size: 26px;
   margin-top: 25px;
 }
@@ -359,17 +240,20 @@ body {
 .faqCallUs h2 {
   font-family: 'Abril Fatface';
   font-size: 40px;
+  text-shadow: 3px 3px 5px #000;
 }
 
 .faqCallUs h3 {
   font-family: 'Days One', sans-serif;
   font-size: 25px;
   margin-top:10px;
+  text-shadow: 3px 3px 5px #FFF;
 }
 
 .faqCallUs h4 {
   font-family: 'Days One', sans-serif;
   font-size: 25px;
+  text-shadow: 3px 3px 5px #FFF;
 }
 
 
@@ -418,7 +302,7 @@ body {
   padding: 5px;
   font-family: 'Days One', sans-serif;
   font-size: 28px;
-  text-shadow: 1px 1px 3px #D3D4E5;
+  text-shadow: 3px 3px 5px #FFF;
 }
 
 
@@ -541,7 +425,7 @@ body {
   font-size: 20px;
   padding: 3px;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 3px #D3D4E5;
+  text-shadow: 2px 2px 3px #FFF;
 }
 
 
@@ -550,7 +434,7 @@ body {
   font-size: 20px;
   padding: 5px;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 3px #D3D4E5;
+  text-shadow: 2px 2px 3px #FFF;
 }
 
 /*
